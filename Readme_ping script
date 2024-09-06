@@ -1,0 +1,8 @@
+###Requirements:
+# nmap must be installed and accessible from the command line.
+  - On Linux/macOS, you can install it via the package manager (apt install nmap or brew install nmap).
+  - On Windows, download it from Nmap's official site.
+### Limitations:
+Accuracy of OS detection: The OS detection relies on nmap, and while it works well for many devices, it may not always be able to detect the exact OS version.
+Permissions: Some networks may block ping or restrict the ability to scan devices, especially if you don't have administrative privileges.
+SNMP/WMI/SSH: To gather even more granular details (e.g., exact device model or manufacturer), you would need access to the device through SNMP, WMI, or SSH.
